@@ -1,0 +1,9 @@
+1   version: 2
+2   jobs:
+3     build:
+4      docker:
+5        - image: circleci/ruby:2.4.1
+6      steps:
+7        - checkout
+8        - run: echo "A first hello"
+9
